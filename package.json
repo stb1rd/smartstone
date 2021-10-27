@@ -1,0 +1,13 @@
+{
+  "name": "tg-bot",
+  "version": "0.0.1",
+  "main": "app.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "telegraf": "^4.4.2"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
