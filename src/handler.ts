@@ -1,7 +1,7 @@
 import { Bot, Context } from 'grammy';
 import { LightStatus, toggleLights } from './rest/rest';
 
-const allowedUserIDs = [112558614000];
+export const allowedUserIDs = [112558614];
 
 export const handleCommand: (status: LightStatus, ctx: Context, bot: Bot) => Promise<void> = async (
   status,
